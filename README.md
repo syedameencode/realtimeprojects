@@ -1,59 +1,41 @@
 Coffee Machine ☕
-Welcome to the Coffee Machine project, a Python-based simulator created as part of the 100 Days of Code challenge! This real-time, interactive command-line program simulates a coffee machine, allowing users to select drinks, manage ingredients, and process payments. Perfect for Python beginners and coffee enthusiasts looking to brew some code! 🚀
+A Python-powered Coffee Machine simulator crafted for the 100 Days of Code challenge! This real-time, command-line program lets you brew virtual coffee by selecting drinks, managing resources, and processing payments. Perfect for Python newbies and coffee lovers! 🚀
 Features
 
-☕ Interactive Menu: Choose from a variety of coffee drinks (e.g., espresso, latte, cappuccino).
-🧾 Payment Processing: Simulates coin-based payments with change calculation.
-📊 Resource Management: Tracks and updates coffee, water, and milk inventory in real-time.
-🐍 Beginner-Friendly: Written in clean, simple Python code, ideal for learning.
-🎯 100 Days of Code: Built as part of the coding challenge to hone Python skills.
+☕ Interactive Drink Menu: Pick from espresso, latte, or cappuccino.
+💰 Payment System: Insert virtual coins and get change.
+📊 Real-Time Resources: Tracks coffee, water, and milk levels.
+🐍 Simple Python Code: Clean, beginner-friendly, and easy to understand.
+🎯 100 Days of Code: A fun project to boost your Python skills.
 
 Getting Started
 Prerequisites
 
-Python 3.x installed on your machine.
-No external libraries required—just pure Python!
+Python 3.x (no external libraries needed).
 
 Installation
 
-Clone the repository:git clone https://github.com/your-username/coffee-machine.git
+Clone the repo:git clone https://github.com/syedameencode/coffee-machine.git
 
 
-Navigate to the project directory:cd coffee-machine
+Navigate to the project folder:cd coffee-machine
 
 
 Run the program:python main.py
 
 
 
-How to Use
+Usage
 
-Run the program and choose a drink from the menu (e.g., espresso, latte, cappuccino).
-Insert virtual coins to pay for your drink.
-Check the machine's resources with the report command.
-Type off to shut down the machine.
+Launch the program and select a drink (espresso, latte, cappuccino).
+Insert coins to pay (quarters, dimes, nickels, pennies).
+Use report to check resources or off to shut down.
 
-Project Structure
-
-main.py: The core script containing the coffee machine logic.
-data.py: Stores drink recipes and resource data.
-README.md: This file!
-
-Example Output
+Sample Output
 Welcome to the Coffee Machine! ☕
-What would you like? (espresso/latte/cappuccino): espresso
+What would you like? (espresso/latte/cappuccino): latte
 Please insert coins.
-Quarters: 2
-Dimes: 1
+Quarters: 4
+Dimes: 0
 Nickels: 0
 Pennies: 0
-Here's your espresso! Enjoy! ☕
-
-Contributing
-Feel free to fork this project, submit pull requests, or suggest improvements! This is a beginner-friendly project, so all ideas are welcome. 🌟
-Acknowledgments
-
-Inspired by the 100 Days of Code challenge.
-Built with ☕ and a love for learning Python!
-
-Happy coding and brewing! 🚀
